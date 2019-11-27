@@ -1,5 +1,4 @@
 
-
 @media screen and (max-width: 1024px) {
 .navBar a {
 display: none;
@@ -48,9 +47,11 @@ display: none;
   text-align: center;
 }
 
-ul.about-info-list li:nth-child(2) {
-  font-size: 0.9em;
+#curriculumVitae {
+  text-align: center;
 }
+
+
 
 
 .grid-container-projects {
@@ -82,6 +83,14 @@ ul.about-info-list li:nth-child(2) {
   justify-items: center;
   grid-gap: 0;
   width: 50%;
+}
+
+ul.about-info-list li span:nth-child(2){
+  font-size: 0.8em;
+}
+
+#header-title {
+  padding-top: 13vh;
 }
 
 }

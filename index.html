@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="stylesheets/main.css">
     <link rel="stylesheet" href="stylesheets/mediaQueries.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 </head>
 
@@ -22,9 +21,9 @@
             <a href="#about-section">About</a>
             <!--<a href="#contact">Resume</a>
             <a href="#news">Services</a>-->
-             <a href="#project-section">Projects</a>
+             <a href="#projects-section">Projects</a>
             <!--<a href="#blog">Blog</a>-->
-            <a href="#contact">Contact</a>
+            <a href="#contact-section">Contact</a>
             <a href="javascript:void(0);" class="icon" onclick="hamburgerMenu()">
               <i class="fa fa-bars"></i>
             </a>
@@ -34,10 +33,10 @@
             <p>I'm a web developer</p>
         </div>
     </header>
-    <div class="grid-container-about">
-        <div class="about-img">
-            <img src="imgs/amitchelldev.png" alt="" id="amitchelldev-img">
-        </div>
+    <section class="grid-container-about" id="about-section">
+        <figure class="about-img">
+            <img src="imgs/amitchelldev.png" alt="Cartoon image of web developer Alex Mitchell" id="amitchelldev-img">
+        </figure>
         <div class="about-txt">
             <div class="title uppercase">
                 <h2>About Me</h2>
@@ -49,30 +48,30 @@
                 <li><span>Email:</span><span>alex@mtdigital.tech</span></li>
                 <li><span>Phone: </span><span>+44 7720 778260</span></li>
             </ul>
+            <p id="curriculumVitae"><a href="docs/alexMitchellCurriculumVitae.docx" class="button" download>Download CV</a></p>
         </div>
-    </div>
-    <div class="title center uppercase">
-        <h2>Projects</h2>
-    </div>
-    <div class="grid-container-projects">
-        <div class="project yelpCamp" style="background-image: url(imgs/YelpCamp-project[cropped].jpg); background-size: cover;">
-            <div class="overlay"></div>
-        </div>
-        <div class="project blog" style="background-image: url(imgs/blog-project.jpg); background-size: cover;"></div>
-        <div class="project todoList" style="background-image: url(imgs/todo-list-project.jpg); background-size: cover;"></div>
-    </div>
-    <div class="title center uppercase">
-        <h2>Contact</h2>
-    </div>
-    <div class="grid-container-contact">
-        <a href="https://github.com/alexmitchelldev" target="_blank"><i class="fab fa-github fa-5x"></i></a>
-        <a href="https://twitter.com/alexmitchelldev" target="_blank"><i class="fab fa-twitter fa-5x"></i></a>
-        <a href="https://www.linkedin.com/in/alex-mitchell-ab703980/" target="_blank"><i class="fab fa-linkedin-in fa-5x"></i></a>
-        <a href="mailto: alex@mtdigital.tech" target="_blank"><i class="far fa-envelope fa-5x"></i></a>
-    </div>
-    <section class="contact">
-        
     </section>
-    <footer class="footer"></footer>
+    <section id="projects-section">
+        <div class="title center uppercase">
+            <h2>Projects</h2>
+        </div>
+        <div class="grid-container-projects">
+            <div class="project yelpCamp" style="background-image: url(imgs/YelpCamp-project[cropped].jpg); background-size: cover;"></div>
+            <div class="project blog" style="background-image: url(imgs/blog-project.jpg); background-size: cover;"></div>
+            <div class="project todoList" style="background-image: url(imgs/todo-list-project.jpg); background-size: cover;"></div>
+        </div>
+    </section>
+    <section id="contact-section">
+        <div class="title center uppercase">
+            <h2>Contact</h2>
+        </div>
+        <div class="grid-container-contact">
+            <a href="https://github.com/alexmitchelldev" target="_blank"><i class="fab fa-github fa-5x"></i></a>
+            <a href="https://twitter.com/alexmitchelldev" target="_blank"><i class="fab fa-twitter fa-5x"></i></a>
+            <a href="https://www.linkedin.com/in/alex-mitchell-ab703980/" target="_blank"><i class="fab fa-linkedin-in fa-5x"></i></a>
+            <a href="mailto: alex@mtdigital.tech" target="_blank"><i class="far fa-envelope fa-5x"></i></a>
+        </div>
+    </section>
+    <footer class="footer"><p>&#169;Copyright amitchelldev 2019</p></footer>
 </body>
 </html>
