@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Alex Mitchell Dev Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="scripts/main.js"></script>
+    <link rel="stylesheet" href="stylesheets/main.css">
+    <link rel="stylesheet" href="stylesheets/mediaQueries.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header header-gradient">
+        <nav class="navBar" id="mainNavBar">
+            <a id="hamburgerSpacer"></a>
+            <a href="#home">Home</a>
+            <a href="#about-section">About</a>
+            <!--<a href="#contact">Resume</a>
+            <a href="#news">Services</a>-->
+             <a href="#project-section">Projects</a>
+            <!--<a href="#blog">Blog</a>-->
+            <a href="#contact">Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="hamburgerMenu()">
+              <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+        <div class="title center" id="header-title">
+            <h1>Hey I'm Alex Mitchell ;)</h1>
+            <p>I'm a web developer</p>
+        </div>
+    </header>
+    <div class="grid-container-about">
+        <div class="about-img">
+            <img src="imgs/amitchelldev.png" alt="" id="amitchelldev-img">
+        </div>
+        <div class="about-txt">
+            <div class="title uppercase">
+                <h2>About Me</h2>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate, aspernatur quisquam. Iusto consectetur rem dolorum nesciunt porro. Perferendis, temporibus! Doloremque et laudantium suscipit, exercitationem ducimus debitis at, modi possimus eius ut delectus aliquam repudiandae aliquid architecto. Non qui dicta obcaecati corrupti vero. Soluta reiciendis eligendi omnis iste expedita reprehenderit! Inventore.</p>
+            <ul class="about-info-list">
+                <li><span>Name:</span><span>Alex Mitchell</span></li>
+                <li><span>Location:</span><span>London, United Kingdom</span></li>
+                <li><span>Email:</span><span>alex@mtdigital.tech</span></li>
+                <li><span>Phone: </span><span>+44 7720 778260</span></li>
+            </ul>
+        </div>
+    </div>
+    <div class="title center uppercase">
+        <h2>Projects</h2>
+    </div>
+    <div class="grid-container-projects">
+        <div class="project yelpCamp" style="background-image: url(imgs/YelpCamp-project[cropped].jpg); background-size: cover;">
+            <div class="overlay"></div>
+        </div>
+        <div class="project blog" style="background-image: url(imgs/blog-project.jpg); background-size: cover;"></div>
+        <div class="project todoList" style="background-image: url(imgs/todo-list-project.jpg); background-size: cover;"></div>
+    </div>
+    <div class="title center uppercase">
+        <h2>Contact</h2>
+    </div>
+    <div class="grid-container-contact">
+        <a href="https://github.com/alexmitchelldev" target="_blank"><i class="fab fa-github fa-5x"></i></a>
+        <a href="https://twitter.com/alexmitchelldev" target="_blank"><i class="fab fa-twitter fa-5x"></i></a>
+        <a href="https://www.linkedin.com/in/alex-mitchell-ab703980/" target="_blank"><i class="fab fa-linkedin-in fa-5x"></i></a>
+        <a href="mailto: alex@mtdigital.tech" target="_blank"><i class="far fa-envelope fa-5x"></i></a>
+    </div>
+    <section class="contact">
+        
+    </section>
+    <footer class="footer"></footer>
+</body>
+</html>
