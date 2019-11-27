@@ -1,77 +1,77 @@
 html, body {
-    height: 100%;
-    margin: 0 auto;
-    font-family: 'Montserrat', sans-serif;
+  height: 100%;
+  margin: 0 auto;
+  font-family: 'Montserrat', sans-serif;
 }
 
 a i {
-  text-decoration:none;
-  color: black;
+text-decoration:none;
+color: black;
 }
 
 /* CSS GRID */
 
 .grid-container-about {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 0;
-    grid-template-areas: 
-    "about-img about-txt";
-    margin-top: 2vh;
-    margin-bottom: 2vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0;
+  grid-template-areas: 
+  "about-img about-txt";
+  margin-top: 2vh;
+  margin-bottom: 2vh;
 }
 
-  .about-img {
-    grid-area: about-img;
-    text-align: right;
-  }
-  
-  .about-txt {
-    grid-area: about-txt;
-    width: 70%;
-    margin-left: 50px;
-    text-align: justify;
-  }
-
-  .grid-container-projects {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 350px;
-    grid-gap: 0;
-    grid-template-areas:
-    "project-YelpCamp project-blog project-todoList";
-    margin-bottom: 2vh;
-  }
-
-  .project-YelpCamp {
-    grid-area: project-YelpCamp;
-  }
-
-  .project-blog {
-    grid-area: project-blog;
-  }
-
-  .project-todoList {
-    grid-area: project-todoList;
-  }
-
-  .projects {
-      grid-area: projects;
-  }
-
-  .grid-container-contact {
-    margin: 2vh auto 2vh auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    justify-items: center;
-    grid-gap: 0;
-    width: 50%;
+.about-img {
+  grid-area: about-img;
+  text-align: right;
 }
 
-  .contact {
-      grid-area: contact;
-  }
-  
+.about-txt {
+  grid-area: about-txt;
+  width: 70%;
+  margin-left: 50px;
+  text-align: justify;
+}
+
+.grid-container-projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 350px;
+  grid-gap: 0;
+  grid-template-areas:
+  "project-YelpCamp project-blog project-todoList";
+  margin-bottom: 2vh;
+}
+
+.project-YelpCamp {
+  grid-area: project-YelpCamp;
+}
+
+.project-blog {
+  grid-area: project-blog;
+}
+
+.project-todoList {
+  grid-area: project-todoList;
+}
+
+.projects {
+    grid-area: projects;
+}
+
+.grid-container-contact {
+  margin: 2vh auto 2vh auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  grid-gap: 0;
+  width: 50%;
+}
+
+.contact {
+    grid-area: contact;
+}
+
 
 
 /* PAGE CONTENT */

@@ -1,87 +1,87 @@
 
 
 @media screen and (max-width: 1024px) {
-  .navBar a {
-    display: none;
-    }
-    .navBar a.icon {
-      float: right;
-      display: block;
-    }
-    .navBar.responsive {position: fixed;}
-    .navBar.responsive .icon {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-    .navBar.responsive a {
-      float: none;
-      display: block;
-      text-align: center;
-    }
-    #hamburgerSpacer {
-        display: block;
-    }
-  .grid-container-about {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 0;
-    grid-template-areas: 
-    "about-img"
-    "about-txt";
-    margin-top: 2vh;
-  }
+.navBar a {
+display: none;
+}
+.navBar a.icon {
+  float: right;
+  display: block;
+}
+.navBar.responsive {position: fixed;}
+.navBar.responsive .icon {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.navBar.responsive a {
+  float: none;
+  display: block;
+  text-align: center;
+}
+#hamburgerSpacer {
+    display: block;
+}
+.grid-container-about {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 0;
+  grid-template-areas: 
+  "about-img"
+  "about-txt";
+  margin-top: 2vh;
+}
 
-  .about-img {
-    grid-area: about-img;
-    text-align: center;
-  }
+.about-img {
+  grid-area: about-img;
+  text-align: center;
+}
 
-  .about-txt {
-    grid-area: about-txt;
-    width: 80%;
-    margin: 0 auto;
-    text-align: justify;
-  }
+.about-txt {
+  grid-area: about-txt;
+  width: 80%;
+  margin: 0 auto;
+  text-align: justify;
+}
 
-  .about-txt h2 {
-    text-align: center;
-  }
+.about-txt h2 {
+  text-align: center;
+}
 
-  ul.about-info-list li:nth-child(2) {
-    font-size: 0.9em;
-  }
+ul.about-info-list li:nth-child(2) {
+  font-size: 0.9em;
+}
 
 
-  .grid-container-projects {
-    display: grid;
-    grid-template-rows: 200px;
-    grid-gap: 0;
-    margin-top: 2vh;
-  }
+.grid-container-projects {
+  display: grid;
+  grid-template-rows: 200px;
+  grid-gap: 0;
+  margin-top: 2vh;
+}
 }
 
 
 @media screen and (max-width: 767px) {
-  .grid-container-projects {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 25vh 25vh 25vh;
-    grid-gap: 0;
-    grid-template-areas:
-    "project-YelpCamp" 
-    "project-blog" 
-    "project-todoList";
-  }
+.grid-container-projects {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 25vh 25vh 25vh;
+  grid-gap: 0;
+  grid-template-areas:
+  "project-YelpCamp" 
+  "project-blog" 
+  "project-todoList";
+}
 
-  .grid-container-contact {
-    margin: 2vh auto 2vh auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 110px 110px;
-    justify-items: center;
-    grid-gap: 0;
-    width: 50%;
+.grid-container-contact {
+  margin: 2vh auto 2vh auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 110px 110px;
+  justify-items: center;
+  grid-gap: 0;
+  width: 50%;
 }
 
 }
