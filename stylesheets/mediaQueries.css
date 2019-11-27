@@ -90,10 +90,10 @@ display: none;
 }
 
 .grid-container-skills {
-  margin: 2vh auto 2vh auto;
+  margin: 2vh auto;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 150px 150px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 160px 160px;
   justify-items: center;
   grid-gap: 0;
   width: 80%;
