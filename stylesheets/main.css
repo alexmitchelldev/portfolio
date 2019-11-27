@@ -9,6 +9,24 @@ text-decoration:none;
 color: black;
 }
 
+/* PAGE CONTENT */
+
+.title {
+  font-size: 1.5em;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.bold {
+  font-weight: 900;
+}
+
 .button {
   background-color: white;
   border: 2px solid #555555;
@@ -55,6 +73,16 @@ color: black;
   text-align: justify;
 }
 
+.grid-container-skills {
+  margin: 2vh auto 7vh auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 200px;
+  justify-items: center;
+  grid-gap: 0;
+  width: 80%;
+}
+
 .grid-container-projects {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -82,33 +110,18 @@ color: black;
 }
 
 .grid-container-contact {
-  margin: 2vh auto 2vh auto;
+  margin: 2vh auto 7vh auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   justify-items: center;
   grid-gap: 0;
-  width: 50%;
+  width: 80%;
 }
 
 .contact {
     grid-area: contact;
 }
 
-
-
-/* PAGE CONTENT */
-
-.title {
-  font-size: 1.5em;
-}
-
-.uppercase {
-  text-transform: uppercase;
-}
-
-.center {
-  text-align: center;
-}
 
 
 /* HEADER & NAV */
@@ -196,5 +209,4 @@ ul.about-info-list li span:first-child {
   bottom: 0;
   width: 100%;
   color: white;
-  text-align: center;
 }

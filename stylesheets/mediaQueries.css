@@ -1,5 +1,14 @@
 
 @media screen and (max-width: 1024px) {
+
+.header-gradient {
+  height: 45vh;
+}
+
+#header-title {
+  padding-top: 13vh;
+}
+
 .navBar a {
 display: none;
 }
@@ -51,29 +60,24 @@ display: none;
   text-align: center;
 }
 
-
-
-
-.grid-container-projects {
-  display: grid;
-  grid-template-rows: 200px;
-  grid-gap: 0;
-  margin-top: 2vh;
-}
 }
 
+@media screen and (max-width: 768px) {
+  .grid-container-projects {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 25vh 25vh 25vh;
+    grid-gap: 0;
+    grid-template-areas:
+    "project-YelpCamp" 
+    "project-blog" 
+    "project-todoList"
+    "project-museumOfCandy";
+  }
+}
 
+/* < iPad */ 
 @media screen and (max-width: 767px) {
-.grid-container-projects {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 25vh 25vh 25vh;
-  grid-gap: 0;
-  grid-template-areas:
-  "project-YelpCamp" 
-  "project-blog" 
-  "project-todoList";
-}
 
 .grid-container-contact {
   margin: 2vh auto 2vh auto;
@@ -82,7 +86,17 @@ display: none;
   grid-template-rows: 110px 110px;
   justify-items: center;
   grid-gap: 0;
-  width: 50%;
+  width: 80%;
+}
+
+.grid-container-skills {
+  margin: 2vh auto 2vh auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 150px 150px;
+  justify-items: center;
+  grid-gap: 0;
+  width: 80%;
 }
 
 ul.about-info-list li span:nth-child(2){
@@ -91,6 +105,32 @@ ul.about-info-list li span:nth-child(2){
 
 #header-title {
   padding-top: 13vh;
+}
+
+div.grid-container-skills div:nth-child(6) p{
+  font-size: 0.9em;
+}
+
+}
+
+/* Small Screens */
+
+@media screen and (max-width: 600px){
+
+.title {
+  font-size: 0.9em;
+}
+
+.header-gradient {
+  height: 40vh;
+}
+}
+
+
+@media screen and (max-width: 320px){
+
+.title {
+  font-size: 0.8em;
 }
 
 }
