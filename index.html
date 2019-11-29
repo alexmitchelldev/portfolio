@@ -20,9 +20,7 @@
             <a href="#home">Home</a>
             <a href="#about-section">About</a>
             <a href="#skills-section">Skills</a>
-            <!--<a href="#contact">Resume</a>
-            <a href="#news">Services</a>-->
-             <a href="#projects-section">Projects</a>
+            <a href="#projects-section">Projects</a>
             <!--<a href="#blog">Blog</a>-->
             <a href="#contact-section">Contact</a>
             <a href="javascript:void(0);" class="icon" onclick="hamburgerMenu()">
@@ -72,9 +70,30 @@
             <h2>Projects</h2>
         </div>
         <div class="grid-container-projects">
-            <div class="project yelpCamp" style="background-image: url(imgs/YelpCamp-project[cropped].jpg); background-size: cover;"></div>
-            <div class="project blog" style="background-image: url(imgs/blog-project.jpg); background-size: cover;"></div>
-            <div class="project todoList" style="background-image: url(imgs/todo-list-project.jpg); background-size: cover;"></div>
+            <a href="https://safe-taiga-71912.herokuapp.com/" class="project" target="_blank" style="background-image: url(imgs/YelpCamp-project[cropped].jpg); background-size: cover;">
+                <div class="overlay">
+                    <div class="project-text">
+                        <h2>YelpCamp</h2>
+                        <p>YelpCamp is a project website to review and rate campsites. The site is built with node.js, mongoDB and Bootstrap.</p>
+                    </div>
+                </div>
+            </a>
+            <a href="http://mtdigital.tech/blogs" class="project" target="_blank" style="background-image: url(imgs/blog-project.jpg); background-size: cover;">
+                <div class="overlay">
+                    <div class="project-text">
+                        <h2>Blog site</h2>
+                        <p>This personal blog site was built to practice RESTful routing principles using node.js, mongoDB and Bootstrap.</p>
+                    </div>
+                </div>
+            </a>
+            <a href="https://alexmitchelldev.github.io/todolistapp/" class="project" target="_blank" style="background-image: url(imgs/todo-list-project.jpg); background-size: cover;">
+                <div class="overlay">
+                    <div class="project-text">
+                        <h2>Todo list application</h2>
+                        <p>This simple todo list application was built using jQuery, HTML and CSS.</p>
+                    </div>
+                </div>
+            </a>
         </div>
     </section>
     <section id="contact-section">

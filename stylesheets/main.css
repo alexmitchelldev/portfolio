@@ -199,6 +199,47 @@ ul.about-info-list li span:first-child {
 
 /* PROJECTS SECTION */
 
+/* OVERLAY */
+
+.project {
+  position: relative;
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(48, 47, 47, 0.541);
+}
+
+.project:hover .overlay {
+  opacity: 1;
+}
+
+.project-text {
+  color: white;
+  font-size: 1.3em;
+  position: absolute;
+  width: 80%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: justify;
+}
+
+.project-text h2 {
+  text-align: center;
+}
+
 /* FOOTER */
 
 .footer {
