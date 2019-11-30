@@ -43,6 +43,7 @@ display: none;
 .about-img {
   grid-area: about-img;
   text-align: center;
+  margin-right: 10vh;
 }
 
 .about-txt {
@@ -113,6 +114,10 @@ ul.about-info-list li span:nth-child(2){
 
 div.grid-container-skills div:nth-child(6) p{
   font-size: 0.9em;
+}
+
+#amitchelldev-img {
+  max-width: 60%;
 }
 
 }
