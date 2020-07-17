@@ -76,9 +76,8 @@ a i {
 	margin: 2vh auto 7vh auto;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
-	grid-template-rows: 200px;
+	grid-template-rows: 200px 200px;
 	justify-items: center;
-	grid-gap: 0;
 	width: 80%;
 }
 
