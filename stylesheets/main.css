@@ -84,7 +84,7 @@ a i {
 .grid-container-projects {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: 350px;
+	grid-template-rows: 350px 350px;
 	grid-gap: 0;
 	grid-template-areas: "project-YelpCamp project-blog project-todoList";
 	margin-bottom: 2vh;
